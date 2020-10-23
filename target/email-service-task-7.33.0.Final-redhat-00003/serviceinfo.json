@@ -1,0 +1,69 @@
+{
+        "name" : "EmailWorkItemDefinitions",
+        "displayName" : "EmailWorkItemDefinitions",
+        "defaultHandler" : "mvel: new com.anadoluefes.EmailWorkItemWorkItemHandler()",
+        "documentation" : "email-service-task/index.html",
+        "module" : "email-service-task",
+        "icon" : "EmailWorkItemDefinitions.png",
+            "category" : "email-service-task",
+            "description" : "Workitem Desciption",
+            "keywords" : [
+                                ""
+
+            ],
+                "isaction" : "true",
+                "actiontitle" : "Sample Title",
+            "requiresauth" : "true",
+                "authparams" : [
+                                           {
+                                               "name" : "to"
+                                           }
+                    ,{
+                                               "name" : "cc"
+                                           }
+                    ,{
+                                               "name" : "subject"
+                                           }
+                    ,{
+                                               "name" : "body"
+                                           }
+
+                ],
+                "authreferencesite" : "referenceSiteURL",
+            "parameters" : [
+                                   {
+                                       "name" : "cc",
+                                       "type" : "new StringDataType()"
+                                   }
+                ,{
+                                       "name" : "subject",
+                                       "type" : "new StringDataType()"
+                                   }
+                ,{
+                                       "name" : "to",
+                                       "type" : "new StringDataType()"
+                                   }
+                ,{
+                                       "name" : "body",
+                                       "type" : "new StringDataType()"
+                                   }
+
+            ],
+            "results" : [
+                                   {
+                                       "name" : "SampleResult",
+                                       "type" : "new StringDataType()"
+                                   }
+
+            ],
+            "mavenDependencies" : [
+                                   {
+                                       "groupId" : "com.anadoluefes",
+                                       "artifactId" : "email-service-task",
+                                       "version" : "7.33.0.Final-redhat-00003"
+                                   }
+
+            ]
+}
+
+,

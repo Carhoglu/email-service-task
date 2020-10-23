@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: aopalliance:aopalliance:1.0.0.redhat-00003">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0.0.redhat-00003/aopalliance-1.0.0.redhat-00003.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0.0.redhat-00003/aopalliance-1.0.0.redhat-00003-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0.0.redhat-00003/aopalliance-1.0.0.redhat-00003-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

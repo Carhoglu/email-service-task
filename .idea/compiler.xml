@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for email-service-task" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="generateTemplates" value="true" />
+        <option name="generateWids" value="true" />
+        <option name="templateResources" value="kie-deployment-descriptor.xml:kie-ddtemplate.st,serviceinfo.json:serviceinfo.st,repoindex.html:repoindex.part,index.html:indextemplate.st,email-service-task.bpmn2:defaultprocess.st" />
+        <option name="widName" value="email-service-task" />
+        <option name="widsResources" value="email-service-task.wid:widtemplate.st" />
+        <processor name="org.jbpm.process.workitem.core.util.WidProcessor" />
+        <module name="email-service-task" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="email-service-task" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="email-service-task" options="-AwidName=email-service-task -AgenerateTemplates=true -AgenerateWids=true -AwidsResources=email-service-task.wid:widtemplate.st -AtemplateResources=kie-deployment-descriptor.xml:kie-ddtemplate.st,serviceinfo.json:serviceinfo.st,repoindex.html:repoindex.part,index.html:indextemplate.st,email-service-task.bpmn2:defaultprocess.st" />
+    </option>
+  </component>
+</project>

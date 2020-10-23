@@ -1,0 +1,29 @@
+[
+        [
+            "name" : "EmailWorkItemDefinitions",
+            "displayName" : "EmailWorkItemDefinitions",
+            "category" : "email-service-task",
+            "description" : "",
+            "defaultHandler" : "mvel: new com.anadoluefes.EmailWorkItemWorkItemHandler()",
+            "documentation" : "email-service-task/index.html",
+
+            "parameters" : [
+                                "cc" : new StringDataType()
+                ,"subject" : new StringDataType()
+                ,"to" : new StringDataType()
+                ,"body" : new StringDataType()
+
+            ],
+            "results" : [
+                                "SampleResult" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "com.anadoluefes:email-service-task:7.33.0.Final-redhat-00003"
+
+            ],
+            "icon" : "EmailWorkItemDefinitions.png"
+
+        ]
+
+]
