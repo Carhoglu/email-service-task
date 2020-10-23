@@ -102,7 +102,7 @@ public class EmailWorkItemWorkItemHandler extends AbstractLogOrThrowWorkItemHand
             // assertThat(response.getStatusLine().getStatusCode(), equalTo(200));
             client.close();*/
 
-            // sample parameters
+            //  sample parameters
             String to = (String) workItem.getParameter("to");
             String cc = (String) workItem.getParameter("cc");
             String subject = (String) workItem.getParameter("subject");
