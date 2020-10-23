@@ -86,7 +86,7 @@ public class EmailWorkItemWorkItemHandler extends AbstractLogOrThrowWorkItemHand
             RequiredParameterValidator.validate(this.getClass(),
                     workItem);
 
-            CloseableHttpClient client = HttpClients.createDefault();
+          /*  CloseableHttpClient client = HttpClients.createDefault();
             HttpPost httpPost = new HttpPost("http://localhost:7070/demo/exception");
             httpPost.setHeader(CONTENT_TYPE, JSON_CONTENT_TYPE);
 
@@ -100,7 +100,7 @@ public class EmailWorkItemWorkItemHandler extends AbstractLogOrThrowWorkItemHand
             System.out.println("---- >>> status response  --- " + response.getStatusLine());
 
             // assertThat(response.getStatusLine().getStatusCode(), equalTo(200));
-            client.close();
+            client.close();*/
 
             // sample parameters
             String to = (String) workItem.getParameter("to");

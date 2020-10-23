@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.10.1">
+<file name="/Users/mbp2015/Desktop/workItems/email-service-task/src/test/java/com/anadoluefes/EmailWorkItemWorkitemIntegrationTest.java">
+</file>
+<file name="/Users/mbp2015/Desktop/workItems/email-service-task/src/test/java/com/anadoluefes/EmailWorkItemWorkItemHandlerTest.java">
+</file>
 </checkstyle>
